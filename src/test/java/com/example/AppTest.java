@@ -17,6 +17,7 @@ public class AppTest
      */
     public AppTest( String testName )
     {
+	System.out.print("hi");
         super( testName );
     }
 
@@ -25,6 +26,7 @@ public class AppTest
      */
     public static Test suite()
     {
+	System.out.print("hi");
         return new TestSuite( AppTest.class );
     }
 
@@ -33,6 +35,7 @@ public class AppTest
      */
     public void testApp()
     {
+	System.out.print("hi");
         assertTrue( true );
     }
 }
